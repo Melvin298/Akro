@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "497646589057",
+    "project_id": "akro-final-project-3a255",
+    "storage_bucket": "akro-final-project-3a255.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:497646589057:android:5b5e49371f153dcc6c6980",
+        "android_client_info": {
+          "package_name": "com.am.akro.akro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "497646589057-kjf8rt61s5evi4nmei2t83m6kjka4t21.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.am.akro.akro",
+            "certificate_hash": "a787e4de76bfd4ec957e200a3d4d1ed4d9182803"
+          }
+        },
+        {
+          "client_id": "497646589057-1g3u10oevkt0go8n7nth8m95pebc69gu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5w91Pya2JBlC6W_bTJXgrsNxCySBrE_c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "497646589057-1g3u10oevkt0go8n7nth8m95pebc69gu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
