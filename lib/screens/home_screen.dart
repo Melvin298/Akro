@@ -2,6 +2,7 @@ import 'package:akro/screens/adeux.dart';
 import 'package:akro/screens/famille.dart';
 import 'package:akro/screens/soiree.dart';
 import 'package:akro/screens/splash_screen.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:akro/screens/login_screen.dart';
 import 'dart:ui';
@@ -29,7 +30,7 @@ class _HomeScreenState extends State<HomeScreen>{
         body: Container(
           margin: EdgeInsets.symmetric(
             horizontal: 16,
-            vertical: 30,
+            vertical: 10,
           ),
           child: ListView(
             children: <Widget>[
@@ -66,7 +67,7 @@ class _HomeScreenState extends State<HomeScreen>{
                 ],
               ),
               SizedBox(height: 80.0),
-              Image.asset('assets/images/akro-logo.png',),
+              Container(height: 250,child: Image.asset('assets/images/akro-logo.png',)),
               SizedBox(height: 20.0),
               Center(
                 child: Material(
@@ -200,4 +201,7 @@ class _HomeScreenState extends State<HomeScreen>{
   }
 
 }
+
+
+
 

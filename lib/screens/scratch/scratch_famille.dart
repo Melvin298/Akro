@@ -92,7 +92,7 @@ class _ScratchScreenFamilleState extends State<ScratchScreen_famille> {
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: <Widget>[
                 Container(
-                  height: 1,
+                  height: 10,
                   child: FittedBox(
                     fit: BoxFit.none,
                     child: Container(

@@ -59,7 +59,7 @@ class _FamilleScreenState extends State<FamilleScreen> {
                   ),
                 ],
               ),
-              SizedBox(height: 200.0),
+              SizedBox(height: 130.0),
               Column(
                 mainAxisSize: MainAxisSize.min,
                 crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -93,7 +93,7 @@ class _FamilleScreenState extends State<FamilleScreen> {
                     children: <Widget>[
                       Center(
                             child: Material(
-                              elevation: 3,
+                              elevation: 4,
                               borderRadius: BorderRadius.circular(20.0),
                               child: InkWell(
                                 onTap: () {
