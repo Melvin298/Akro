@@ -447,7 +447,7 @@ class _GrattageInformationState extends State<GrattageInformation> {
               horizontal: 16,
               vertical: 50,
             ),
-            child: ListView(un nou
+            child: ListView(
               children: <Widget>[
                 Column(
                   mainAxisSize: MainAxisSize.min,
